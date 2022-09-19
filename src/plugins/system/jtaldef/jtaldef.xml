@@ -2,18 +2,24 @@
 <extension version="3.9" type="plugin" group="system" method="upgrade">
 	<name>plg_system_jtaldef</name>
 	<author>Guido De Gobbis</author>
-	<creationDate>##DATE##</creationDate>
-	<copyright>Copyright ##YEAR## JoomTools.de. All rights reserved.</copyright>
+	<creationDate>2022-08-25</creationDate>
+	<copyright>Copyright 2022 JoomTools.de. All rights reserved.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
 	<authorEmail>support@joomtools.de</authorEmail>
 	<authorUrl>https://github.com/JoomTools/plg_system_jtaldef</authorUrl>
-	<version>##VERSION##</version>
+	<version>1.0.13</version>
 	<description>PLG_SYSTEM_JTALDEF_DESCRIPTION</description>
 	<files>
-		##FILES##
+		<folder>language</folder>
+<folder>field</folder>
+<file>script.php</file>
+<folder>src</folder>
+<file plugin="jtaldef">jtaldef.php</file>
+<file>jtaldef.xml</file>
 	</files>
 	<media destination="plg_system_jtaldef" folder="media/plg_system_jtaldef">
-		##MEDIA_FILES##
+		<folder>js</folder>
+<folder>index</folder>
 	</media>
 	<scriptfile>script.php</scriptfile>
 	<config>
